@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+    /* background-color: #2196F3; */
+    /* padding-left: 22%; */
+    /* width:25px; */
+    /* float: center;
+    position: center; */
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 8px;
+    font-size: 30px;
+    text-align: center;
+    /* width:25%; */
+  }
+.snake{
+  background-color: red;
+}
+.ladder{
+  background-color: yellow;
+}
+.player1{
+  background-color: green;
+}
+.player2{
+  background-color: blue;
+}
